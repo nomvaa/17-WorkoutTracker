@@ -1,11 +1,11 @@
 const express = require("express");
-const mongojs = require("mongojs")
+// const mongojs = require("mongojs")
 const mongoose = require("mongoose");
 
 const logger = require("morgan");
 
 // Setting up Express
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Set up logger
