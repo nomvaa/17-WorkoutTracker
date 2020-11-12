@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Setting up Mongo DB for heroku and localhost
-let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workouts";
 mongoose.connect(MONGODB_URI, { 
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
